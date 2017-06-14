@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 20170614013200) do
     t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "jobs_id"
+    t.index ["jobs_id"], name: "index_managers_on_jobs_id"
   end
 
 end
