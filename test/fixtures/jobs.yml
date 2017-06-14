@@ -1,11 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyString
-  salary: 9.99
+sales:
+  title: Sales Representative
+  description: Excelent entry level sales position.
+  Must have strong desire to learn and cold-call.
+  salary: 50,000
 
-two:
-  title: MyString
-  description: MyString
-  salary: 9.99
+engineer:
+  title: Software Engineer
+  description: Seeking skilled Software Engineers with five
+  years experience. Must know Java and C++ extensively.
+  salary: 100,000
